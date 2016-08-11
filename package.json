@@ -1,7 +1,7 @@
 {
   "name": "ionic-gulp-jade",
-  "version": "0.0.5",
-  "description": "Simple Jade compiler for ionic v2",
+  "version": "0.1.1",
+  "description": "Simple Jade compiler gulp task for ionic v2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

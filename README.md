@@ -11,7 +11,7 @@ that can be [piped](http://nodejs.org/api/stream.html#stream_readable_pipe_desti
 #### Available options:
 - **src** (String|Array) Glob or array of globs ([What's a glob?](https://github.com/isaacs/node-glob#glob-primer)) matching jade entry files. Default: `'app/**/*.jade'`.
 - **dest** (String) Output path for the compiled CSS bundle(s). Default: `'www/build/'`.
-- **jadeOptions** (Object) [Sass options](https://github.com/lord/gulp-jade#options). Default:
+- **jadeOptions** (Object) [jade-lang options](https://github.com/lord/gulp-jade#options). Default:
 ```
 {
   pretty: true
