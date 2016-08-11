@@ -1,6 +1,6 @@
 {
   "name": "ionic-gulp-jade",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Jade compiler for ionic v2",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,11 @@
     "v2"
   ],
   "author": "gianluca gravina",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grava/ionic-gulp-jade.git"
+  },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-jade": "^1.1.0",

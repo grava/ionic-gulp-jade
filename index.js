@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 var defaultOptions = {
   src: 'app/**/*.jade',
-  dest: 'www/build/**/*.html'
+  dest: 'www/build/'
 };
 
 
