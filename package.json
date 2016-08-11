@@ -1,6 +1,6 @@
 {
   "name": "ionic-gulp-jade",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Jade compiler for ionic v2",
   "main": "index.js",
   "scripts": {
