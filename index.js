@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 	 assign = require('lodash.assign');
 
 var defaultOptions = {
-  src: 'app/**/*.ts',
+  src: 'app/**/*.jade',
   dest: 'www/build/**/*.html'
 };
 
