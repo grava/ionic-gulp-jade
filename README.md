@@ -14,7 +14,8 @@ that can be [piped](http://nodejs.org/api/stream.html#stream_readable_pipe_desti
 - **jadeOptions** (Object) [jade-lang options](https://github.com/lord/gulp-jade#options). Default:
 ```
 {
-  pretty: true
+  pretty: true,
+  doctype: 'html'
 }
 ```
 - **onError** (Function) Error handler when there are errors in the Sass stream. Default:

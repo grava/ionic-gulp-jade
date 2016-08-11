@@ -5,7 +5,10 @@ var gulp = require('gulp'),
 var defaultOptions = {
   src: 'app/**/*.jade',
   dest: 'www/build/',
-  jadeOptions: { pretty: true},
+  jadeOptions: { 
+    pretty: true,
+    doctype: 'html'
+  },
   done: function (){},
   onError: function(err) {
     console.error(err.message);
@@ -14,7 +17,7 @@ var defaultOptions = {
 };
 
 
-module.exports = function(options, done) {
+module.exports = function(options) {
   options = assign(defaultOptions, options);
 
 return gulp.src(options.src)
